@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hızlı Çeviri Opera GX eklentisinin gizlilik politikası.">
+  <title>Gizlilik Politikası — Hızlı Çeviri</title>
+  <style>
+    :root { color-scheme: light dark; --page:#f5f7fb; --card:#fff; --text:#202124; --muted:#5f6368; --line:#dfe3eb; --blue:#1a73e8; --notice:#e8f0fe; font:16px/1.65 "Segoe UI",Roboto,Arial,sans-serif; }
+    @media (prefers-color-scheme:dark) { :root { --page:#17181b; --card:#202124; --text:#e8eaed; --muted:#bdc1c6; --line:#3c4043; --blue:#8ab4f8; --notice:#252f3e; } }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:40px 18px; background:var(--page); color:var(--text); }
+    main { width:min(820px,100%); margin:0 auto; padding:clamp(22px,5vw,52px); border:1px solid var(--line); border-radius:18px; background:var(--card); box-shadow:0 8px 30px #0000000b; }
+    header { padding-bottom:22px; border-bottom:1px solid var(--line); }
+    .brand { color:var(--blue); font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { margin:8px 0 5px; font-size:clamp(27px,5vw,38px); line-height:1.2; letter-spacing:-.03em; }
+    .updated { margin:0; color:var(--muted); font-size:13px; }
+    nav { display:flex; gap:12px; margin:18px 0 4px; font-size:14px; }
+    a { color:var(--blue); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .notice { margin:22px 0 28px; padding:14px 16px; border-radius:10px; background:var(--notice); font-size:14px; }
+    section { padding-top:8px; }
+    h2 { margin:24px 0 7px; font-size:19px; line-height:1.35; }
+    p { margin:8px 0 12px; }
+    ul { margin:8px 0 14px; padding-left:22px; }
+    li { margin:4px 0; }
+    .contact-placeholder { color:var(--muted); font-family:ui-monospace,Consolas,monospace; }
+    footer { margin-top:32px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media print { body { padding:0; background:#fff; } main { border:0; box-shadow:none; } nav { display:none; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">Hızlı Çeviri · Opera GX eklentisi</div>
+    <h1>Gizlilik Politikası</h1>
+    <p class="updated">Yürürlük tarihi: 26 Ekim 2026</p>
+    <nav aria-label="Dil seçimi"><a href="#turkce">Türkçe</a><a href="#english">English</a></nav>
+  </header>
+
+  <section id="turkce" lang="tr">
+    <h2>Türkçe</h2>
+    <p>Bu politika, Hızlı Çeviri tarayıcı eklentisinin hangi bilgileri kullandığını, bunları nasıl işlediğini ve kimlerle paylaştığını açıklar.</p>
+
+    <h2>İşlenen bilgiler</h2>
+    <ul>
+      <li><strong>Çevrilecek metin:</strong> Web sayfasında seçtiğiniz metin veya eklenti penceresine yazdığınız metin, yalnızca çeviri simgesine, sağ tık komutuna ya da “Çevir” düğmesine bastığınızda çeviri için kullanılır.</li>
+      <li><strong>Dil ve görünüm tercihleri:</strong> Kaynak dili, hedef dili ve açık/koyu tema tercihi tarayıcının eklenti depolama alanında (<code>chrome.storage.local</code>) saklanır.</li>
+      <li><strong>Geçici önbellek:</strong> Aynı metni tekrar çevirmeyi hızlandırmak için istek ve sonuç, eklentinin çalışan arka plan işlemi belleğinde geçici olarak tutulabilir. Bu önbellek kalıcı depolamaya yazılmaz ve arka plan işlemi durduğunda silinir.</li>
+      <li><strong>Pano:</strong> “Kopyala” düğmesine basarsanız çeviri sonucu cihazınızın panosuna yazılır. Eklenti panodaki mevcut içeriği okumaz.</li>
+    </ul>
+
+    <h2>Bilgilerin kullanımı ve paylaşımı</h2>
+    <p>Çeviri isteği, seçtiğiniz metin ve kaynak/hedef dil bilgisiyle HTTPS üzerinden <code>translate.googleapis.com</code> adresindeki Google çeviri hizmetine gönderilir. Google, isteği kendi <a href="https://policies.google.com/privacy?hl=tr" rel="noopener noreferrer">Gizlilik Politikası</a> kapsamında işler. Eklentinin geliştiricisi bu metinleri kendi sunucularına göndermez veya kendi sistemlerinde saklamaz.</p>
+    <p>Eklenti reklam, analiz veya izleme hizmeti kullanmaz; kişisel bilgileri satmaz ya da çeviri amacı dışında kullanmaz.</p>
+
+    <h2>Web sayfası erişimi</h2>
+    <p>Seçili metnin yanındaki çeviri simgesini gösterebilmek için eklenti HTTP ve HTTPS sayfalarında çalışır ve mevcut metin seçimini izler. Eklenti sayfanın tamamını, ziyaret edilen adresleri, tarama geçmişini veya çerezleri toplamaz. Seçtiğiniz metin, yalnızca çeviri başlattığınızda çeviri hizmetine gönderilir.</p>
+
+    <h2>Saklama ve silme</h2>
+    <p>Dil ve tema tercihleri cihazınızda eklenti kaldırılana veya tercihler değiştirile/temizlenene kadar kalır. Metin ve çeviri sonucu kalıcı olarak saklanmaz; geçici bellek önbelleği arka plan işlemi durduğunda kaybolur. Eklentiyi kaldırmak yerel tercihleri siler. Google tarafından alınan istekler için Google'ın saklama ve silme uygulamaları geçerlidir.</p>
+
+    <h2>Güvenlik</h2>
+    <p>Çeviri hizmetine yapılan bağlantı HTTPS kullanır. Çevrilecek metinde hassas bilgiler bulunabileceğini göz önünde bulundurun ve yalnızca çevirmek istediğiniz metni seçin.</p>
+
+    <h2>Politika değişiklikleri ve iletişim</h2>
+    <p>Bu politika, eklentinin veri işleme biçimi değişirse güncellenir. Gizlilik soruları için eklentinin mağaza sayfasında yayımlanan geliştirici destek e-posta adresini kullanın.</p>
+  </section>
+
+  <section id="english" lang="en">
+    <h2>English</h2>
+    <p>This policy explains what information the Quick Translate browser extension handles, how it is used, and with whom it is shared.</p>
+
+    <h2>Information handled</h2>
+    <ul>
+      <li><strong>Text to translate:</strong> Text selected on a webpage or entered in the extension popup is used for translation only after you click the translation icon, the context-menu command, or the Translate button.</li>
+      <li><strong>Language and appearance preferences:</strong> Your source language, target language, and light/dark theme preference are stored in the browser's extension storage (<code>chrome.storage.local</code>).</li>
+      <li><strong>Temporary cache:</strong> A request and its result may be held temporarily in the memory of the running extension background process to speed up repeat translations. This cache is not written to persistent storage and is cleared when that process stops.</li>
+      <li><strong>Clipboard:</strong> If you click Copy, the translation is written to your device clipboard. The extension does not read existing clipboard contents.</li>
+    </ul>
+
+    <h2>Use and sharing</h2>
+    <p>The selected text and source/target language settings are sent over HTTPS to Google's translation service at <code>translate.googleapis.com</code>. Google processes the request under its <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a>. The extension developer does not send this text to a developer-operated server or store it in developer systems.</p>
+    <p>The extension does not use advertising, analytics, or tracking services; it does not sell personal information or use translation text for unrelated purposes.</p>
+
+    <h2>Webpage access</h2>
+    <p>The extension runs on HTTP and HTTPS pages to detect the current text selection and show the nearby translation icon. It does not collect the full page, visited addresses, browsing history, or cookies. Selected text is sent to the translation service only when you start a translation.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Language and theme preferences remain in local extension storage until the extension is removed or the preferences are changed or cleared. Text and translations are not persistently stored; the temporary in-memory cache disappears when the background process stops. Removing the extension deletes its local preferences. Google's retention and deletion practices apply to requests received by Google.</p>
+
+    <h2>Security</h2>
+    <p>Requests to the translation service use HTTPS. Please consider that selected text may contain sensitive information and send only text you intend to translate.</p>
+
+    <h2>Changes and contact</h2>
+    <p>This policy will be updated if the extension's data practices change. For privacy questions, use the developer support email published on the extension's store listing.</p>
+  </section>
+
+  <footer>Hızlı Çeviri · Son güncelleme: 26 Ekim 2026</footer>
+</main>
+</body>
+</html>
+
